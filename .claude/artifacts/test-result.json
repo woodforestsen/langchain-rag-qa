@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "totalTests": 65,
+  "failedTests": 0,
+  "frontend": { "passed": 33, "failed": 0, "files": 5 },
+  "backend": { "passed": 32, "failed": 0, "files": 2 },
+  "timestamp": "2026-07-08T13:35:00.000Z"
+}

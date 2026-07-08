@@ -1,0 +1,74 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npx vitest *)",
+      "Bash(npx vite *)",
+      "Bash(pip install *)",
+      "Bash(PYTHONPATH=. python *)",
+      "Bash(PYTHONPATH=\".\" python *)",
+      "Bash(python -m pytest *)",
+      "Bash(python -m uvicorn *)",
+      "Bash(python -c *)",
+      "Bash(python3 -c *)",
+      "Bash(curl *)",
+      "Bash(grep *)",
+      "Bash(netstat *)",
+      "Bash(taskkill *)",
+      "Bash(pkill *)",
+      "Bash(nohup *)",
+      "Bash(sleep *)",
+      "Bash(echo *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(rm *)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(for PID in *)",
+      "Bash(python -m backend *)",
+      "Read(//d/**)",
+      "Read(//c/Users/**)",
+      "Write(//d/**)",
+      "Edit(//d/**)",
+      "Skill(unit-test)",
+      "Skill(unit-test:*)",
+      "Skill(comments-check)",
+      "Skill(comments-check:*)",
+      "Skill(security-audit)",
+      "Skill(security-audit:*)",
+      "Skill(gitcommit)",
+      "Skill(gitcommit:*)",
+      "Skill(rebuild-app)",
+      "Skill(rebuild-app:*)",
+      "Agent(tester)",
+      "Agent(quality-engineer)",
+      "Agent(gitcommit-agent)",
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3 -c ' *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ],
+    "additionalDirectories": [
+      "d:\\Program Files\\项目\\langchainRAG\\.claude",
+      "d:\\Program Files\\项目\\langchainRAG\\.claude\\skills",
+      "d:\\Program Files\\项目\\langchainRAG\\.claude\\artifacts",
+      "d:\\Program Files\\项目\\langchainRAG\\backend",
+      "d:\\Program Files\\项目\\langchainRAG\\frontend"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"d:/Program Files/项目/langchainRAG/.claude/hooks/keyword-trigger.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
