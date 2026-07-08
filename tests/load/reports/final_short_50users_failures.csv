@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+GET,GET /api/chat/:id/export,HTTPError('500 Server Error: Internal Server Error for url: GET /api/chat/:id/export'),39,2026-07-08T09:15:23Z,2026-07-08T09:16:19Z

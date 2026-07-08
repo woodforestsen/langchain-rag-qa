@@ -1,0 +1,9 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299caa3a4e0>' is not persistent within this Session"")",1,2026-07-08T08:57:51Z,2026-07-08T08:57:51Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299cc288bb0>' is not persistent within this Session"")",1,2026-07-08T08:57:10Z,2026-07-08T08:57:10Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299caa3a840>' is not persistent within this Session"")",1,2026-07-08T08:57:37Z,2026-07-08T08:57:37Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299cc5863c0>' is not persistent within this Session"")",1,2026-07-08T08:57:41Z,2026-07-08T08:57:41Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299cc17a570>' is not persistent within this Session"")",1,2026-07-08T08:57:49Z,2026-07-08T08:57:49Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299caa4ba80>' is not persistent within this Session"")",1,2026-07-08T08:56:58Z,2026-07-08T08:56:58Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299caa0fc50>' is not persistent within this Session"")",1,2026-07-08T08:56:58Z,2026-07-08T08:56:58Z
+SSE,POST /api/chat (RAG SSE),"Exception(""Instance '<Message at 0x299cc1edae0>' is not persistent within this Session"")",1,2026-07-08T08:57:01Z,2026-07-08T08:57:01Z

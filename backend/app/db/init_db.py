@@ -6,7 +6,7 @@ from sqlalchemy import select
 
 from app.config import settings
 from app.core.security import hash_password
-from app.db.session import Base, async_session_factory, engine
+from app.db.session import Base, async_session_factory, engine, _init_sqlite_pragma
 from app.models import *  # noqa: 确保所有模型被导入
 
 
@@ -38,6 +38,7 @@ async def seed_admin():
 
 async def init_db():
     """初始化数据库：建表 + 种子数据"""
+    await _init_sqlite_pragma()  # 先设置 WAL 模式
     await create_tables()
     await seed_admin()
 

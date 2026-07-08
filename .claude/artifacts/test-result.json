@@ -1,8 +1,18 @@
 {
   "passed": true,
-  "totalTests": 65,
-  "failedTests": 0,
-  "frontend": { "passed": 33, "failed": 0, "files": 5 },
-  "backend": { "passed": 32, "failed": 0, "files": 2 },
-  "timestamp": "2026-07-08T13:35:00.000Z"
+  "backend": {
+    "passed": true,
+    "total": 32,
+    "passed_count": 32,
+    "failed_count": 0,
+    "output_summary": "32 passed, 0 failed. 测试覆盖：认证API（健康检查、登录、注册、修改密码、获取用户信息、会话管理、知识库统计权限），RAG管道（文本切分、引用提取、来源解析、文档格式化、自动标题生成、LLM工厂）。含9个弃用警告（datetime.utcnow、SwigPy类型）。"
+  },
+  "frontend": {
+    "passed": true,
+    "total": 33,
+    "passed_count": 33,
+    "failed_count": 0,
+    "output_summary": "5个测试文件全部通过，33个测试用例通过，0失败。覆盖：Auth类型定义（5个）、Chat类型定义（6个）、authStore（7个）、chatStore（11个）、themeStore（3个）。"
+  },
+  "summary": "全部65个测试通过（后端32 + 前端33），无失败用例。"
 }

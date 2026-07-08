@@ -6,7 +6,7 @@ INPUT=$(cat)
 PROMPT=$(echo "$INPUT" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('prompt',''))" 2>/dev/null || echo "")
 
 # === 提交代码 → gitcommit-agent ===
-if echo "$PROMPT" | grep -qiE "提交代码|commit|gitcommit|推送代码"; then
+if echo "$PROMPT" | grep -qiE "提交代码|commit|gitcommit|推送代码|存档|初始化工程|git.*init|git.*存档"; then
   echo ""
   echo "=== 关键词触发：提交代码 ==="
   echo "用户想要提交代码。你必须调用 Agent 工具，subagent_type 设为 \"gitcommit-agent\"，prompt 设为用户的原话。"

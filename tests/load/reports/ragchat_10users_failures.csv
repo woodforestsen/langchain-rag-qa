@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+SSE,POST /api/chat (RAG SSE),Exception('HTTP 500'),20,2026-07-08T08:12:24Z,2026-07-08T08:13:05Z
